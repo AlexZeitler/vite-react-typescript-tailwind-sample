@@ -13,6 +13,18 @@ yarn
 yarn dev
 ```
 
+## Explanation
+
+After running `yarn create @vitejs/app <MyApp> --template react-ts`, just run `yarn add --dev tailwindcss@latest postcss@latest autoprefixer@latest` and add these files:
+
+* [postcss.config.js](https://github.com/AlexZeitler/vite-react-typescript-tailwind-sample/commit/cbf46b58e2185987280184c7865d6033e5176cce#diff-05ed1c7f99e45b485708115502a1e0f28c8547e9a9a29c1b8664f79103cf7873)
+
+* [src/App.css](https://github.com/AlexZeitler/vite-react-typescript-tailwind-sample/commit/cbf46b58e2185987280184c7865d6033e5176cce#diff-60f5dcfc15327d5dd812d9df394c217efbedb4aa33dca782ed69d39dce811972)
+
+* [tailwind.config.js](https://github.com/AlexZeitler/vite-react-typescript-tailwind-sample/commit/cbf46b58e2185987280184c7865d6033e5176cce#diff-ddc1067f080930bc48865f4660316a14b21bbc9f9ba85975ce8479342b983d2e)
+
+* `import './App.css'` in `src/main.tsx` [Details](https://github.com/AlexZeitler/vite-react-typescript-tailwind-sample/commit/cbf46b58e2185987280184c7865d6033e5176cce#diff-1cd8b18798a1a103bfe13bef54354c1f3a3bea29a31c8eea1a0c67a3a839b811R3)
+
 ## LICENSE
 
 MIT License
